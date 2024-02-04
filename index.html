@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film Izleyelim mi </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <audio id="myAudio" loop>
+        <source src="seniseviyorum.mp3" type="audio/mp3">
+        Tarayıcınız audio etiketini desteklemiyor.
+    </audio>
+    <h1>Soruya cevap vermeden once muzigi baslatir misin ? <button class="music" onclick="document.getElementById('myAudio').play()">Müziği Oynat</button> <button class="music" onclick="document.getElementById('myAudio').pause()">Müziği Durdur</button></h1>
+    
+    <div class="container">
+        <div class="text">
+            <h1 class="main">Bu akşam boşsan, beraber bir film seyretmek ister misin?</h1>
+    
+        </div>
+        <div class="boxes">
+            <a href="https://wa.me/48453258245?text=Hangi,%20filmi%20izlemek%20istersin?" target="_blank" class="box yesButton green">EVET</a>
+            <button  class="noButton box red">HAYIR</button>
+        </div>
+    
+
+    </div>
+
+ 
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
